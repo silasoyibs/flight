@@ -1,17 +1,16 @@
 import React from "react";
-import Button from "./src/component/Button";
-import Card from "./src/component/Card";
-import IconBookFlight from "./public/flight-booking.svg";
-import IconFlightCancel from "./public/flight-cancel.svg";
-import IconFlightManangement from "./public/flight-management.svg";
+import IconBookFlight from "../assets/flight-booking.svg";
+import IconFlightCancel from "../assets/flight-cancel.svg";
+import IconFlightManangement from "../assets/flight-management.svg";
+import HeadingTag from "../component/HeadingTag";
+import Button from "../component/Button";
+import Card from "../component/Card";
 
 function OurSolutions() {
   return (
-    <section className='sm:h-[500px] bg-[url("./Our-solutions-bg-img.jpg")] bg-cover bg-no-repeat '>
-      <div className="flex flex-col gap-5 items-center max-w-[1112px] mx-auto pt-12 pb-10 px-4">
-        <span className="px-3 py-1 rounded-md font-secondary font-[600] text-[16px] text-primary bg-primary-light">
-          Explore Our Services
-        </span>
+    <section className=' bg-[url("/Our-solutions-bg-img.jpg")] bg-cover bg-center bg-no-repeat '>
+      <div className="flex flex-col  gap-5 items-center max-w-[1112px] mx-auto pt-12 pb-10 px-4">
+        <HeadingTag>Explore Our Services</HeadingTag>
         <h2 className="font-secondary text-center sm:text-[30px] text-[20px] font-[600]">
           Explore Effortless Flight Solutions for Booking, Cancellation, and
           Modifications
@@ -21,7 +20,7 @@ function OurSolutions() {
           with our seamless solutions. Enjoy stress-free travel with 24/7
           support and the best deals available
         </p>
-        <div className="flex flex-col lg:flex-row gap-5">
+        <div className="flex grow-1 flex-col md:flex-row gap-5">
           <Card heading="Flight Booking" icon={IconBookFlight}>
             Secure the best deals and book your flight hassle-free in just a few
             clicks.
