@@ -3,7 +3,7 @@ import Button from "../component/Button";
 
 function Hero() {
   return (
-    <div className="mx-auto  text-white text-center  px-4 flex flex-col gap-3 items-center sm:max-w-[800px] max-w-[100%] mt-20 sm:mt-30">
+    <div className="mx-auto  text-white text-center  px-4 flex flex-col gap-5 items-center sm:max-w-[800px] max-w-[100%] mt-20 sm:mt-30">
       <h1 className=" font-primary font-bold text-[25px] sm:text-[40px]  leading-8 sm:leading-11 uppercase">
         Fly Your Way with Easy, Flexible, Stress-Free Travel
       </h1>

@@ -9,7 +9,7 @@ import Card from "../component/Card";
 
 function WhyChooseUs() {
   return (
-    <section className="bg-[#FEF8E5] flex flex-col items-center pb-12 ">
+    <section className="bg-[#FEF8E5] flex flex-col items-center pb-12 px-4 ">
       <div className="max-w-[1112px] mx-auto flex  flex-col items-center lg:flex-row sm:gap-5 lg:gap-10 pt-12 pb-5  ">
         <figure>
           <img
@@ -18,9 +18,9 @@ function WhyChooseUs() {
             alt="girl standing with bag"
           />
         </figure>
-        <div className="flex flex-col items-center lg:items-start gap-3">
+        <div className="flex flex-col items-center lg:items-start gap-3 pt-5">
           <HeadingTag>Why Choose Us</HeadingTag>
-          <h2 className="font-secondary text-[20px]  sm:text-[30px] sm:text-left font-[600] ">
+          <h2 className="font-secondary text-[20px]  text-center sm:text-[30px] sm:text-left font-[600] ">
             The Best Choice for Stress-Free Travel
           </h2>
           <p className="font-secondary  text-center lg:text-left text-[16px]">

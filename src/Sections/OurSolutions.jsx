@@ -20,7 +20,7 @@ function OurSolutions() {
           with our seamless solutions. Enjoy stress-free travel with 24/7
           support and the best deals available
         </p>
-        <div className="flex grow-1 flex-col md:flex-row gap-5">
+        <div className="flex grow-1 flex-col md:flex-row md:flex-wrap md:justify-center gap-4">
           <Card heading="Flight Booking" icon={IconBookFlight}>
             Secure the best deals and book your flight hassle-free in just a few
             clicks.
