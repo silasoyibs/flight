@@ -1,0 +1,16 @@
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-ExtraBold.ttf);
+}
+@font-face {
+  font-family: outfit;
+  src: url(./fonts/Outfit-Regular.ttf);
+}
+
+@import "tailwindcss";
+@theme {
+  --color-primary: #fabb03;
+  --color-primary-light: #fee6a1;
+  --font-primary: "poppins", "sans-serif";
+  --font-secondary: "outfit", "sans-serif";
+}
